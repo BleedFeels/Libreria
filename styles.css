@@ -8,7 +8,8 @@ body{
     background-image: url(imagenes/fondo1.jpg);
 }
 .promo{
-    background-image: url(imagenes/promo.jpg)
+
+    background-image: url(imagenes/promo.jpg);
 }
 
 .contacto{
@@ -131,6 +132,13 @@ body{
 
 /*FOOTER*/
 
+.contact{
+
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  
+}
 .pie{
     display: flex;
     
@@ -170,14 +178,14 @@ body{
 
 
 .textopromo h1{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center;
   color: white;
 }
 
 .textopromo  p{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center ;
   color: white;
@@ -191,14 +199,14 @@ body{
 /*arte*/
 
 .textoarte h1{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center;
   color: white;
 }
 
 .textoarte  p{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center ;
   color: white;
@@ -224,14 +232,14 @@ body{
 /*ACCION*/
 
 .textoaccion h1{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center;
   color: white;
 }
 
 .textoaccion p{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center ;
   color: rgb(238, 237, 237);
@@ -256,17 +264,18 @@ body{
 
 /*poesia*/
 .textopoesia h1{
-
+  text-shadow: 2px 2px 4px black;
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(248, 247, 247);
 }
 
 .textopoesia p{
 
   display: flex;
   justify-content: center ;
-  color: rgb(238, 237, 237);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px black;
 }
 
   .poesias img{
@@ -296,6 +305,10 @@ body{
 }
 
 .form{
+  display: flex;
+  justify-content: center;
+}
+.forma{
   display: flex;
   justify-content: center;
 }
