@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open inter', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    background-image: url(imagenes/fondo1.jpg);
+}
+.promo{
+    background-image: url(imagenes/promo.jpg)
+}
+
+.contacto{
+  background-image: url(imagenes/contacto.png);
+}
+
+
+
+/*ENCABEZADO*/
+
+.Principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #028de3;
+    border-style: solid ;  
+    font-weight: 700; 
+    text-align: right;
+
+
+
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+
+.todo{
+    background-color: rgb(67, 67, 210);
+    
+}
+
+.todo :hover{
+    background-color: white;
+}
+
+/*CUERPO*/
+
+
+  
+ #book-container{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+ }
+
+  
+  .book-card {
+    width: 300px;
+    height: 500px;
+    background-color: #6b0ef7;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+  }
+  
+  .book-card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .book-card p {
+    font-size: 16px;
+    color: rgb(248, 7, 7);
+    margin-bottom: 20px;
+  }
+  
+  .book-card span {
+    font-size: 14px;
+    color: #999;
+    display: block;
+  }
+  .prin{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+
+  }
+
+  .card0{
+    width: 370px;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    background-color: black;}
+
+    .card0 img{
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+    }
+    
+.card2{
+    width: 370px;
+    border: 2px solid;
+    background-color: black;
+    color:white;
+   }
+
+
+/*FOOTER*/
+
+.pie{
+    display: flex;
+    
+    background-color: #028de3;
+    border: 2px solid black;
+    
+}
+.pie a{
+    color: black;
+    text-decoration: none;
+    margin: 2px 30px 0 0;
+}
+.pie a :hover{
+    color: white;
+}
+.red{
+    font-style: initial;
+
+}
+.torso input{
+  display: flex;
+  text-align: center;
+  
+}
+
+.torso{
+  display: flex;
+  justify-content: center;
+}
+
+.quejas{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.textopromo h1{
+
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.textopromo  p{
+
+  display: flex;
+  justify-content: center ;
+  color: white;
+}
+
+.promos{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*arte*/
+
+.textoarte h1{
+
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.textoarte  p{
+
+  display: flex;
+  justify-content: center ;
+  color: white;
+}
+
+  .artes img{
+    
+      width: 200px;
+      height: 250px;
+      margin: 0px;
+  
+  }
+  .artes{
+    display: flex;
+  justify-content: space-around;
+  }
+  
+  
+.arte{
+  background-image: url(imagenes/fondoarte.jpg);
+}
+
+/*ACCION*/
+
+.textoaccion h1{
+
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.textoaccion p{
+
+  display: flex;
+  justify-content: center ;
+  color: rgb(238, 237, 237);
+}
+
+  .acciones img{
+    
+      width: 200px;
+      height: 250px;
+      margin: 0px;
+  
+  }
+  .acciones{
+    display: flex;
+  justify-content: space-around;
+  }
+  
+  
+.accion{
+  background-image: url(imagenes/fondoaccion.jpg);
+}
+
+/*poesia*/
+.textopoesia h1{
+
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.textopoesia p{
+
+  display: flex;
+  justify-content: center ;
+  color: rgb(238, 237, 237);
+}
+
+  .poesias img{
+    
+      width: 200px;
+      height: 250px;
+      margin: 0px;
+  
+  }
+  .poesias{
+    display: flex;
+  justify-content: space-around;
+  }
+  
+  
+.poesia{
+  background-image: url(imagenes/fondopoesia.jpg);
+}
+
+
+
+/*BUSCADOR*/
+
+.buscador{
+  display: flex;
+  justify-content: space-around;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
